@@ -50,6 +50,10 @@ public class Account {
 		return getBalance().isGreaterThan(money);
 	}
 	
+	public Long getId() {
+		return id;
+	}
+	
 	public String getName() {
 		return name;
 	}
