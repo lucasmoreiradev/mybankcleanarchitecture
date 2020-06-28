@@ -13,7 +13,16 @@
 	    <version>1.10.19</version>
 	    <scope>test</scope>
 	</dependency>  
+	<dependency>
+		<groupId>org.junit.jupiter</groupId>
+		<artifactId>junit-jupiter-engine</artifactId>
+		<scope>test</scope>
+	</dependency>	
+	<dependency>
+	    <groupId>javax.validation</groupId>
+	    <artifactId>validation-api</artifactId>
+	</dependency>	
   </dependencies>  
   
-  <artifactId>mybankcleanarchitecture-core</artifactId>
+  <artifactId>mybankcleanarchitecture-application</artifactId>
 </project>
