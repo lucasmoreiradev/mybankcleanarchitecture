@@ -12,7 +12,7 @@
 </parent>  
   <modules>
   	<module>application</module>
-  	<module>mybankcleanarchitecture-core</module>
+  	<module>mybankcleanarchitecture-application</module>
   	<module>mybankcleanarchitecture-configuration</module>
   	<module>mybankcleanarchitecture-adapters</module>
   </modules>
