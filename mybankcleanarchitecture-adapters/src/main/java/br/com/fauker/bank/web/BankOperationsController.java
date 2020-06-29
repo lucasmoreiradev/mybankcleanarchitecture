@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.fauker.bank.domain.Money;
 import br.com.fauker.bank.exception.WithdrawNotAllowdException;
-import br.com.fauker.bank.port.in.DepositRequest;
 import br.com.fauker.bank.port.in.DepositUseCase;
+import br.com.fauker.bank.port.in.DepositUseCase.DepositRequest;
 
 @RestController
 public class BankOperationsController {

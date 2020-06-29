@@ -12,7 +12,7 @@ import org.mockito.Mockito;
 import br.com.fauker.bank.domain.Account;
 import br.com.fauker.bank.domain.Money;
 import br.com.fauker.bank.exception.WithdrawNotAllowdException;
-import br.com.fauker.bank.port.in.DepositRequest;
+import br.com.fauker.bank.port.in.DepositUseCase.DepositRequest;
 import br.com.fauker.bank.port.out.GetAccountPort;
 import br.com.fauker.bank.port.out.UpdateAccountPort;
 

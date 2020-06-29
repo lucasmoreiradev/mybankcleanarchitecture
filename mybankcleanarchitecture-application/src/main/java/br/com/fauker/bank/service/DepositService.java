@@ -2,7 +2,6 @@ package br.com.fauker.bank.service;
 
 import br.com.fauker.bank.domain.Account;
 import br.com.fauker.bank.exception.WithdrawNotAllowdException;
-import br.com.fauker.bank.port.in.DepositRequest;
 import br.com.fauker.bank.port.in.DepositUseCase;
 import br.com.fauker.bank.port.out.GetAccountPort;
 import br.com.fauker.bank.port.out.UpdateAccountPort;
