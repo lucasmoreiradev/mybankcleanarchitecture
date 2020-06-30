@@ -23,6 +23,13 @@ public class Account {
 	@Deprecated
 	public Account() {}
 	
+	public Account(String name, String cpf, LocalDate birth, Money initialBalance) {
+		this.name = name;
+		this.cpf = cpf;
+		this.birth = birth;
+		this.initialBalance = initialBalance;
+	}
+	
 	public Account(Long id, String name, String cpf, LocalDate birth, Money initialBalance) {
 		this.id = id;
 		this.name = name;

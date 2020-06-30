@@ -12,4 +12,8 @@ public class AccountMapper {
 		return new Account(account.getId(), account.getName(), account.getCpf(), account.getBirth(), Money.of(account.getInitialBalance()));
 	}
 	
+	AccountJpaEntity toJpaEntity(Account account) {
+		return new AccountJpaEntity(account.getName(), account.getCpf(), account.getBirth(), account.getBalance().getAmount().longValue());
+	}
+	
 }

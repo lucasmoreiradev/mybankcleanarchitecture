@@ -34,6 +34,16 @@ public class AccountJpaEntity {
 	@OneToMany
 	private List<TransactionJpaEntity> transactions;
 	
+	@Deprecated
+	public AccountJpaEntity() {}
+	
+	public AccountJpaEntity(String name, String cpf, LocalDate birth, Long initialBalance) {
+		this.name = name;
+		this.cpf = cpf;
+		this.birth = birth;
+		this.initialBalance = initialBalance;
+	}
+
 	public List<TransactionJpaEntity> getTransactions() {
 		return Collections.unmodifiableList(transactions);
 	}

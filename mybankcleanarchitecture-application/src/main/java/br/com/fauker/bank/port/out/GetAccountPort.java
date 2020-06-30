@@ -7,5 +7,6 @@ import br.com.fauker.bank.domain.Account;
 public interface GetAccountPort {
 
 	Optional<Account> load(Long accountId);
+	Optional<Account> load(String cpf);
 	
 }
