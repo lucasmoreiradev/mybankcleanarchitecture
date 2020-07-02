@@ -20,7 +20,7 @@ public class CreateAccountForm {
 
 	@JsonProperty("initial_balance")
 	private Long intitialBalance;
-
+	
 	public String getName() {
 		return name;
 	}

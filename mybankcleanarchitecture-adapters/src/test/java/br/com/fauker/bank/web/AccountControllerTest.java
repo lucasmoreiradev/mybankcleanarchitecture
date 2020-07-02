@@ -14,16 +14,12 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 import br.com.fauker.bank.persistence.AccountJpaEntity;
 import br.com.fauker.bank.persistence.AccountRepository;
-import br.com.fauker.bank.port.in.CreateAccountUseCase;
 
 @WebMvcTest(controllers = AccountController.class)
 class AccountControllerTest {
 	
 	@Autowired
 	private MockMvc mockMvc;
-	
-	@MockBean
-	private CreateAccountUseCase createAccountUseCase;
 	
 	@MockBean
 	private AccountRepository accountRepository;
